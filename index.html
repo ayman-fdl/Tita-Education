@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/home.css">
+    <title>Tita Education | Officiel</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+            <a href="index.html"><h1 id="logo">T I T A | Education</h1></a>
+            <nav class="navigation" id="navLinks">
+                <i class="fas fa-bars toggle-menu" onclick="affichage()"></i>
+                <ul class="links" id="links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="courses.html" class="nav_button">COURSES</a></li>
+                </ul>
+            </nav>      
+            </div>
+            <div class="sub-header">
+                    <!-- button pour aller a la page des cours  -->
+                <div class="Clicker">
+                    <h2 class="pub">Votre école sur internet</h2>
+                    <a class="a-Clicker" href="pages/course.html">Clicker ici pour aller au cours</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- proposition des cours  -->
+    <div class="contenu">
+        <h2 class="h2">Cours que nous proposons</h2>
+        <p class="parag">On a présenté ici les cours les plus recherché, pour faciliter la navigation sur notre site et gagner du temps.</p>
+        <div class="proposition">
+            <div class="col">
+                <a href="/pages/Lycée/1ère Bac.html"><h3>1BAC</h3></a>
+                <p>Tous les cours de première année avec différentes filières.</p>
+            </div>
+            <div class="col">
+                <a href="pages/Lycée/2ème Bac.html"><h3>2BAC</h3></a>
+                <p>Tous les cours de deuxième année avec différentes filières.</p>
+            </div>
+            <div class="col">
+                <a href="pages/Université/SMIA.html"><h3>SMIA</h3></a>
+                <p>la filière du sciences mathématiques appliquées et l'informatique. <br> première année universitaire.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Start footer  -->
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com" target="blank" ><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCt0Y7-4sbY0Uj8jjBRJ9pdw" target="blank" ><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/tarik.essarsah/" target="blank" ><i class="fab fa-instagram"></i> </a>
+            <a href="mailto:titaeduofficiel2@gmail.com"><i class="fas fa-envelope-square"></i></a>
+        </div>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+        </ul>
+        <p class="copyright">&copy; TITA Education 2021</p>
+    </footer>
+    <script>
+        function affichage() {
+            var x = document.getElementById("links");
+            if (x.style.display === "block") {
+                x.style.display = "none"
+            }else {
+                x.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>

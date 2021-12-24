@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../Css/header-footer.css">
+    <link rel="stylesheet" href="../../Css/MatiereStyle.css">
+    <title>SMIA | T I T A</title>
+</head>
+<body>
+    <header>
+        <a href="../../index.html"><h1 id="logo">T I T A | Education</h1></a>
+        <nav id="navLinks" class="menu">
+            <i class="fas fa-bars toggle-menu" onclick="affichage()"></i>
+            <ul id="links">
+                <li><a href="../../index.html">HOME</a></li>
+                <li><a href="../../contact.html">CONTACT</a></li>
+                <li><a href="../../courses.html" class="nav_button">COURSES</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <div class="container">
+        <h1>Science Mathématique et Informatique Appliquée (SMIA)</h1>
+        <div class="row">
+            <a href="../moduleSMIA/informatique.html">
+            <div class="matiere">
+                    <i class="fas fa-code"></i>
+                    <h3>Informatique 1</h3>
+            </div>
+            </a>
+            <a href="../moduleSMIA/analyse1.html">
+                <div class="matiere">
+                    <i class="fas fa-percentage"></i>
+                    <h3>Analyse 1</h3>
+                </div>
+            </a>
+            <a href="../moduleSMIA/algebre1.html">
+                <div class="matiere">
+                        <i class="fas fa-square-root-alt"></i>
+                        <h3>Algèbre 1</h3>
+                </div>
+            </a>
+            <a href="../moduleSMIA/algebre2.html">
+                <div class="matiere">
+
+                        <i class="fas fa-square-root-alt"></i>
+                        <h3>Algèbre 2</h3>
+
+                </div>
+            </a>
+            <a href="../moduleSMIA/mecanique.html">
+                <div class="matiere">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Mécanique 1</h3>
+                </div>
+            </a>
+            <a href="../moduleSMIA/thermo.html">
+                <div class="matiere">
+                    <i class="fas fa-thermometer-half"></i>
+                    <h3>Thermodynamique</h3>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com" target="blank" ><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCt0Y7-4sbY0Uj8jjBRJ9pdw" target="blank" ><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/tarik.essarsah/" target="blank" ><i class="fab fa-instagram"></i> </a>
+            <a href="mailto:titaeduofficiel2@gmail.com"><i class="fas fa-envelope-square"></i></a>
+        </div>
+        <ul>
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../../contact.html">CONTACT</a></li>
+            <li><a href="../../courses.html">COURSES</a></li>
+        </ul>
+        <p class="copyright">&copy; TITA Education 2021</p>
+    </footer>
+    <script>
+        function affichage() {
+            var x = document.getElementById("links");
+            if (x.style.display === "none") {
+                x.style.display = "block"
+            }else {
+                x.style.display = "none"
+            }
+        }
+    </script>
+</body>
+</html>

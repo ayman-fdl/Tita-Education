@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../Css/header-footer.css">
+    <link rel="stylesheet" href="../../Css/MatiereStyle.css">
+    <title>2ère Bac | T I T A</title>
+</head>
+<body>
+    <header>
+        <a href="../../index.html"><h1 id="logo">T I T A | Education</h1></a>
+        <nav id="navLinks" class="menu">
+            <i class="fas fa-bars toggle-menu" onclick="affichage()"></i>
+            <ul id="links" >
+                <li><a href="../../index.html">HOME</a></li>
+                <li><a href="../../contact.html">CONTACT</a></li>
+                <li><a href="../../courses.html" class="nav_button">COURSES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>2ère Bac scientifique</h1>
+        <h2>Sciences Mathématiques A</h2>
+        <div class="row">
+            <div class="matiere">
+                <i class="fas fa-drafting-compass"></i>
+                <h3>Mathématiques</h3>
+            </div>
+            <div class="matiere">
+                <i class="fas fa-flask"></i>
+                <h3>Physique et Chimie</h3>
+            </div>
+            <div class="matiere">
+                <i class="fas fa-microscope"></i>
+                <h3>Sciences de la Vie et de la Terre</h3>
+            </div>
+            <div class="matiere">
+                <i class="fas fa-language"></i>
+                <h3>Anglais</h3>
+            </div>
+            <div class="matiere">
+                <i class="fas fa-feather-alt"></i>
+                <h3>Philosophie</h3>
+            </div>
+            <div class="matiere">
+                <i class="fas fa-quran"></i>
+                <h3>Education Islamique</h3>
+            </div>
+        </div>
+        <hr>
+        <h2>Sciences Physiques</h2>
+        <div class="row">
+            <div class="matiere">
+                <i class="fas fa-drafting-compass"></i>
+                <h3>Mathématiques</h3>
+            </div>
+            <div class="matiere">
+                <i class="fas fa-flask"></i>
+                <h3>Physique et Chimie</h3>
+            </div>
+            <div class="matiere">
+                <i class="fas fa-microscope"></i>
+                <h3>Sciences de la Vie et de la Terre</h3>
+            </div>
+            <div class="matiere">
+                <i class="fas fa-language"></i>
+                <h3>Anglais</h3>
+            </div>
+            <div class="matiere">
+                <i class="fas fa-feather-alt"></i>
+                <h3>Philosophie</h3>
+            </div>
+            <div class="matiere">
+                <i class="fas fa-quran"></i>
+                <h3>Education Islamique</h3>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com" target="blank" ><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCt0Y7-4sbY0Uj8jjBRJ9pdw" target="blank" ><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/tarik.essarsah/" target="blank" ><i class="fab fa-instagram"></i> </a>
+            <a href="mailto:titaeduofficiel2@gmail.com"><i class="fas fa-envelope-square"></i></a>
+        </div>
+        <ul>
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../../contact.html">CONTACT</a></li>
+            <li><a href="../../courses.html">COURSES</a></li>
+        </ul>
+        <p class="copyright">&copy; TITA Education 2021</p>
+    </footer>
+    <script>
+        function affichage() {
+            var x = document.getElementById("links");
+            if (x.style.display === "none") {
+                x.style.display = "block"
+            }else {
+                x.style.display = "none"
+            }
+        }
+    </script>
+</body>
+</html>

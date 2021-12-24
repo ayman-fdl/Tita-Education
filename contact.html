@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Css/header-footer.css">
+    <link rel="stylesheet" href="/contact.css">
+    <title>Contact | T I T A</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><h1 id="logo">T I T A | Education</h1></a>
+        <nav id="navLinks">
+            <i class="fas fa-bars toggle-menu" onclick="affichage()"></i>
+            <ul id="links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a class="nav_button" href="./courses.html">COURSES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="all">
+        <div class="header">
+            <h2 class="name-page">Contact</h2>
+        </div>
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1977.5617818907394!2d-8.038323684201247!3d31.643315727827773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafeea8b1585f17%3A0xe40157ab1a18d669!2sBin%20Lkchali%2C%20Marrakesh!5e1!3m2!1sen!2sma!4v1638064821614!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col1">
+                            <div>
+                                <i class="fa fa-home"></i>
+                                <span>
+                                    <h5>N: XY, Aligro</h5>
+                                    <p>Hey Youssef Ben Tachfin, Marrakesh</p>
+                                </span>
+                            </div>
+                            <div>
+                                <i class="fa fa-phone"></i>
+                                <span>
+                                    <h5>+212 639-386085</h5>
+                                    <p>Lundi à vendredi, cantacter nous</p>
+                                </span>
+                            </div>
+                            <div>
+                                <i class="fa fa-envelope"></i>
+                                <span>
+                                    <h5>Titaeduofficiel2@gmail.com</h5>
+                                    <p>Envoyer-nous un email</p>
+                                </span>
+                            </div>
+                </div>
+                <div class="contact-col2">
+                            <form action="" name="formulaire">
+                                <input type="text" placeholder="Entrer votre nom" name="nom" id="nom" required >
+                                <input type="email" placeholder="Entrer votre Email" name="email" id="email">
+                                <textarea rows="8" placeholder="Message" name="texte" id="texte" required></textarea>
+                                <button type="submit"class="hero-btn" onclick="verification()">Envoyer votre email</button>
+                            </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com" target="blank" ><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCt0Y7-4sbY0Uj8jjBRJ9pdw" target="blank" ><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/tarik.essarsah/" target="blank" ><i class="fab fa-instagram"></i> </a>
+            <a href="mailto:titaeduofficiel2@gmail.com"><i class="fas fa-envelope-square"></i></a>
+        </div>
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="course.html">COURSES</a></li>
+        </ul>
+        <p class="copyright">&copy; TITA Education 2021</p>
+    </footer>
+    <script>
+        function affichage() {
+            var x = document.getElementById("links");
+            if (x.style.display === "none") {
+                x.style.display = "block"
+            }else {
+                x.style.display = "none"
+            }
+        }
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>

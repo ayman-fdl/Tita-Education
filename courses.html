@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="Css/header-footer.css"> -->
+    <link rel="stylesheet" href="/course.css">
+    <title>Course | T I T A</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1 id="logo">T I T A | Education</h1></a>
+        <nav id="navLinks" class="menu">
+            <i class="fas fa-bars toggle-menu" onclick="affichage()"></i>
+            <ul id="links" >
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="courses.html" class="nav_button">COURSES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="header">
+        <h2 class="name-page">Course</h2>
+    </div>
+
+    <nav class="cours">
+        <div class="fac">
+            <h3>Université</h3>
+            <div class="row">
+            <div class="ans">
+                <a href="./pages/Université/SMIA.html">
+                    <i class="fas fa-percentage"></i>
+                    <h4> Science Mathématique et Informatique Appliquée (SMIA)</h4>
+                </a>
+                </div>
+                <div class="ans">
+                <a href="./pages/Université/SMPC.html">
+                    <i class="fab fa-medapps"></i>
+                    <h4>Mathématiques et sciences physiques et chimiques (SMPC)</h4>
+                </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="lycee">
+            <h3>Lycée</h3>
+            <div class="row">
+                <div class="ans">
+                    <a href="./pages/Lycée/Tronc commun .html">
+                        <i class="fab fa-pagelines"></i>
+                        <h4>Tronc commun scientifique (TCS)</h4>
+                    </a>
+                </div>
+                <div class="ans">
+                    <a href="./pages/Lycée/1ère Bac.html">
+                        <i class="fas fa-stamp"></i>
+                        <h4>1ère Bac scientifique</h4>
+                    </a>
+                </div>
+                <div class="ans">
+                    <a href="./pages/Lycée/2ème Bac.html">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>2ère Bac scientifique</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com" target="blank" ><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCt0Y7-4sbY0Uj8jjBRJ9pdw" target="blank" ><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/tarik.essarsah/" target="blank" ><i class="fab fa-instagram"></i> </a>
+            <a href="mailto:titaeduofficiel2@gmail.com"><i class="fas fa-envelope-square"></i></a>
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="course.html">COURSES</a></li>
+        </ul>
+        <p class="copyright">&copy; TITA Education 2021</p>
+    </footer>
+    <script>
+        function affichage() {
+            var x = document.getElementById("links");
+            if (x.style.display === "none") {
+                x.style.display = "block"
+            }else {
+                x.style.display = "none"
+            }
+        }
+    </script>
+</body>
+</html>
