@@ -276,7 +276,7 @@ table {
     width: 100px;
 }
 
-.row {
-   display: grid;
-   grid-gap: 60px;
-}
+/* .row {
+   display: flex;
+   justify-content: space-between;
+} */
