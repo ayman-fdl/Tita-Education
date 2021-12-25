@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container h1 {
+    margin: 150px 15px;
+    text-align: center;
+    border: 5px solid #b7b7b7;
+}
+
+.container h1:hover {
+    text-decoration: underline;
+}
+
+.chapitre {
+    margin-bottom: 40px;
+}
+
+.chapitre h3 {
+    text-align: center;
+    padding: 8px 2px;
+    width: 70%;
+    margin: auto auto 20px auto;
+    border: 4px solid #b7b7b7;
+}
+
+.chapitre h3:hover {
+    text-decoration: underline;
+}
+
+.chapitre .ch1 {
+    width: 65%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.img-pdf {
+    height: 24px;
+    width: 24px;
+    margin-right: 6px;
+    vertical-align: text-bottom;
+}
+
+span {
+    color: #333
+}
+
+span:hover {
+    text-decoration: underline;
+}
