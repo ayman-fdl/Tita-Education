@@ -51,7 +51,7 @@ nav ul {
 }
 @media (max-width: 767px) {
     header nav ul {
-        /* display: none; */
+        display: none;
         position: absolute;
         background: #24252a;
         height: 100vh;

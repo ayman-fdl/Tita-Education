@@ -71,7 +71,7 @@ header .menu .toggle-menu {
 }
 @media (max-width: 767px) {
     header .menu ul {
-        /* display: none; */
+        display: none;
         position: absolute;
         background: #24252a;
         height: 100vh;
