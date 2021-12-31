@@ -46,13 +46,17 @@ header nav .toggle-menu {
     header nav .toggle-menu {
         display: none;
     }
+    header ul {
+        display: flex;
+    }
     header nav ul li {
         display: block;
     }
 }
-nav ul {
+/* nav .links {
     display: flex;
-}
+} */
+
 @media (max-width: 767px) {
     header nav ul {
         display: none;
